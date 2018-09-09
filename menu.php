@@ -112,7 +112,7 @@ include("functions/functions.php");
 									</div>
 									<div class="clearfix"></div>
 								</div>
-							</ul>-->
+							</ul>
 					</li> -->
 <!--					<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">women's wear <span class="caret"></span></a>
