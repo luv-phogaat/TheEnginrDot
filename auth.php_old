@@ -1,9 +1,7 @@
 <?php
 session_start();
-if(isset($_COOKIE['id'])){
-    $sessionid  = $_COOKIE['id'];
-}
 include('connect.php');
+$sessionid = session_id();
 $id = $_POST['name'];
 $password = $_POST['password'];
 //echo $id;

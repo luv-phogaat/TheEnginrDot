@@ -8,8 +8,8 @@ if(isset($_COOKIE['id'])){
 $GLOBALS['sessionid']  = $_COOKIE['id'];
 }
 //extablishing the connection
-//$db = mysqli_connect("localhost","root","","theenginrdot");
-$db = mysqli_connect("localhost","theengin_theengi","theenginrdot123","theengin_theenginrdot");
+$db = mysqli_connect("localhost","root","","theenginrdot");
+//$db = mysqli_connect("localhost","theengin_theengi","theenginrdot123","theengin_theenginrdot");
 //function for getting ip address
 
 
@@ -37,9 +37,8 @@ function cart(){
 //		echo "this part cart";
 
 	global $db;
-        
 		$p_id = $_GET['add_cart'];
-//		echo $p_id;
+		echo $p_id;
 		$ip_add = $GLOBALS['emailid'];
 		$sessionid = $GLOBALS['sessionid'];
         if($ip_add == 'Guest')
@@ -208,6 +207,7 @@ function getPro(){
 									<h4><a href="single.html">'.$pro_title.'</a></h4>
 									<div class="info-product-price">
 										<span class="item_price">&#8377;  '.$pro_price.'</span>
+										<del>&#8377; 69.71</del>
 									</div>
 									<a href="index?add_cart='.$pro_id.'" class="item_add single-item hvr-outline-out button2">Add to cart</a>									
 								</div>

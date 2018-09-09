@@ -107,7 +107,7 @@ if(isset($_SESSION['email']))
 								<div class="fa fa-window-close delete" id="del_<?php echo $c_id; ?>" style="font-size:28px;cursor: pointer;"> </div>
 							</div>
 						</td>
-						<td class="invert-image"><a href="single"><img src="admin_area/product_images/<?php echo $product_image; ?>" alt=" " class="img-responsive" width="50px" /></a></td>
+						<td class="invert-image"><a href="single"><img src="admin_area/product_images/<?php echo $product_image; ?>" alt=" " class="img-responsive" /></a></td>
 						<td class="invert">
 							 <div class="quantity"> 
 								<div class="quantity-select">                           
@@ -143,7 +143,7 @@ if(isset($_SESSION['email']))
 
                                                 }
                                                 });
-                                           $("#total").load("shoppingbag1.php");
+                                           
                                             }
                                             });
 
@@ -173,6 +173,7 @@ if(isset($_SESSION['email']))
                                                 }
                                                 });
                                                 $("#total").load("shoppingbag1.php");
+                                           
                                             }
                                             });
 									});
