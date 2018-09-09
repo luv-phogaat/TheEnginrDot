@@ -82,74 +82,7 @@ include("functions/functions.php");
 				  <ul class="nav navbar-nav menu__list">
 					<li class="active menu__item "><a class="menu__link" href="index">Home <span class="sr-only">(current)</span></a></li>
 					<li class=" menu__item"><a class="menu__link" href="mens">Men's T-Shirts</a></li>
-		<!--			<li class="dropdown menu__item">
-						<a href="mens" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men's t-shirts<!--<span class="caret"></span>--></a>
-<!--							<ul class="dropdown-menu multi-column columns-3">
-								<div class="row">
-									<div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-										<a href="mens"><img src="images/woo1.jpg" alt=" "/></a>
-									</div>
-									<div class="col-sm-3 multi-gd-img">
-										<ul class="multi-column-dropdown">
-											<li><a href="mens">Clothing</a></li>
-											<li><a href="mens">Wallets</a></li>
-											<li><a href="mens">Footwear</a></li>
-											<li><a href="mens">Watches</a></li>
-											<li><a href="mens">Accessories</a></li>
-											<li><a href="mens">Bags</a></li>
-											<li><a href="mens">Caps & Hats</a></li>
-										</ul>									</div>
-									<div class="col-sm-3 multi-gd-img">
-										<ul class="multi-column-dropdown">
-											<li><a href="mens">Jewellery</a></li>
-											<li><a href="mens">Sunglasses</a></li>
-											<li><a href="mens">Perfumes</a></li>
-											<li><a href="mens">Beauty</a></li>
-											<li><a href="mens">Shirts</a></li>
-											<li><a href="mens">Sunglasses</a></li>
-											<li><a href="mens">Swimwear</a></li>
-										</ul>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</ul>-->
-				<!--	</li>--> -->
-<!--					<li class="dropdown menu__item">
-						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">women's wear <span class="caret"></span></a>
-							<ul class="dropdown-menu multi-column columns-3">
-								<div class="row">
-									<div class="col-sm-3 multi-gd-img">
-										<ul class="multi-column-dropdown">
-											<li><a href="womens">Clothing</a></li>
-											<li><a href="womens">Wallets</a></li>
-											<li><a href="womens">Footwear</a></li>
-											<li><a href="womens">Watches</a></li>
-											<li><a href="womens">Accessories</a></li>
-											<li><a href="womens">Bags</a></li>
-											<li><a href="womens">Caps & Hats</a></li>
-										</ul>
-									</div>
-									<div class="col-sm-3 multi-gd-img">
-										<ul class="multi-column-dropdown">
-											<li><a href="womens">Jewellery</a></li>
-											<li><a href="womens">Sunglasses</a></li>
-											<li><a href="womens">Perfumes</a></li>
-											<li><a href="womens">Beauty</a></li>
-											<li><a href="womens">Shirts</a></li>
-											<li><a href="womens">Sunglasses</a></li>
-											<li><a href="womens">Swimwear</a></li>
-										</ul>									</div>
-									<div class="col-sm-6 multi-gd-img multi-gd-text ">
-										<a href="womens"><img src="images/woo.jpg" alt=" "/></a>
-									</div>
-									<div class="clearfix"></div>
-								</div>
-							</ul>
-					</li> -->
-<!--
-					<li class=" menu__item"><a class="menu__link" href="#">ACCESSORIES</a></li>
-					<li class=" menu__item"><a class="menu__link" href="#">HEALTH CARE</a></li>
--->
+		
 					<li class=" menu__item"><a class="menu__link" href="contact">contact</a></li>
 				  </ul>
 				</div>
