@@ -140,7 +140,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<input type="submit" value="Check">
 					</div>
 --><br>
-					<div class="color-quality">
+					<!--<div class="color-quality">
 						<div class="color-quality-right">
 							<h5>Quantity :</h5>
 							<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
@@ -156,7 +156,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<option value="10">10 Qty</option>								
 							</select>
 						</div>
-					</div>
+					</div>-->
 					<br>
 					<div class="occasion-cart">
 					<?php $pid = $_GET['pid']; ?>
