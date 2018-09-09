@@ -194,20 +194,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 				<h4>LOGIN TO YOUR ACCOUNT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 				<h4>SELECT YOUR ITEM</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
 				<h4>MAKE PAYMENT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="clearfix"> </div>
 		</div>
