@@ -82,9 +82,9 @@ include("functions/functions.php");
 				  <ul class="nav navbar-nav menu__list">
 					<li class="active menu__item "><a class="menu__link" href="index">Home <span class="sr-only">(current)</span></a></li>
 					<li class=" menu__item"><a class="menu__link" href="mens">Men's T-Shirts</a></li>
-<<<<<<< HEAD
+
 		<!--			<li class="dropdown menu__item">
-						<a href="mens" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men's t-shirts<!--<span class="caret"></span>--></a>
+						<a href="mens" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men's t-shirts<!--<span class="caret"></span></a>-->
 <!--							<ul class="dropdown-menu multi-column columns-3">
 								<div class="row">
 									<div class="col-sm-6 multi-gd-img1 multi-gd-text ">
@@ -151,9 +151,6 @@ include("functions/functions.php");
 					<li class=" menu__item"><a class="menu__link" href="#">ACCESSORIES</a></li>
 					<li class=" menu__item"><a class="menu__link" href="#">HEALTH CARE</a></li>
 -->
-=======
-		
->>>>>>> ea0528a69e866aef088f77d473420a659437bc29
 					<li class=" menu__item"><a class="menu__link" href="contact">contact</a></li>
 				  </ul>
 				</div>
