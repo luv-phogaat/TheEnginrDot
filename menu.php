@@ -52,10 +52,10 @@ include("functions/functions.php");
                 <?php }
                 ?>
                 
-				<li><a class="fb" href="#"></a></li>
-				<li><a class="twi" href="#"></a></li>
-				<li><a class="insta" href="#"></a></li>
-				<li><a class="you" href="#"></a></li>
+				<li><a class="fb" href="https://www.facebook.com/Theenginrdot/"></a></li>
+				<li><a class="twi" href="https://twitter.com/EnginrDot"></a></li>
+				<li><a class="insta" href="https://www.instagram.com/the_enginr_dot/"></a></li>
+				<li><a class="you" href="https://www.youtube.com/channel/UCG73HM5o2uWgx84u94u_juA"></a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>
