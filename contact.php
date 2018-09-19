@@ -56,7 +56,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="contact-grid1">
 						<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
 						<h4>Address</h4>
-						<p>12K Street, 45 Building Road <span>New York City.</span></p>
+						<p>Dwarka <span>New Delhi</span></p>
 					</div>
 				</div>
 				<div class="col-md-4 contact-grid text-center animated wow slideInUp" data-wow-delay=".5s">
@@ -70,7 +70,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="contact-grid3">
 						<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
 						<h4>Email</h4>
-						<p><a href="mailto:info@example.com">info@example1.com</a><span><a href="mailto:info@example.com">info@example2.com</a></span></p>
+						<p><a href="mailto:info@example.com">theenginrdot@gmail.com</a></p>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -103,20 +103,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 coupons-gd animated wow zoomIn" data-wow-delay=".5s">
 				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 				<h4>LOGIN TO YOUR ACCOUNT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd animated wow zoomIn" data-wow-delay=".5s">
 				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 				<h4>SELECT YOUR ITEM</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd animated wow zoomIn" data-wow-delay=".5s">
 				<span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
 				<h4>MAKE PAYMENT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="clearfix"> </div>
 		</div>

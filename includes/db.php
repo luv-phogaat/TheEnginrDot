@@ -2,7 +2,7 @@
 
 
 	
-$con = mysqli_connect("localhost","root","","theenginrdot");
+$con = mysqli_connect("localhost","theengin_theengi","theenginrdot123","theengin_theenginrdot");
 
 
 ?>

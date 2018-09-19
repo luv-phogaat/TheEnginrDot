@@ -8,7 +8,7 @@ $_COOKIE['id'] = md5(time());
 <!DOCTYPE html>
 <html>
 <head>
-<title>The Enginr Dot</title>
+<title>Summary | The Enginr Dot</title>
 <!-- for-mobile-apps -->
 <link rel="shortcut icon" type="image/x-icon" href="images/logotab.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -284,20 +284,20 @@ $orderid = strtoupper(uniqid(md5(rand(0,100000)+strtotime(date('curr_date')))));
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 				<h4>LOGIN TO YOUR ACCOUNT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 				<h4>SELECT YOUR ITEM</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
 				<h4>MAKE PAYMENT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="clearfix"> </div>
 		</div>

@@ -1,9 +1,9 @@
 <?php
-//session_start();
+session_start();
 include("includes/db.php");
 include("functions/functions.php");
 include "connect.php";
-
+//echo $_SESSION['email'];
 if(isset($_SESSION['email']))
 	$ip_add = $_SESSION['email'];
 else
@@ -11,8 +11,9 @@ else
 $session_id = $_COOKIE['id'];
 //$id = $_POST['id'];
 //$value = $_POST['qty'];
-
-                                $total = 0;
+//echo $session_id;
+//echo $ip_add;
+$total = 0;
 
                     
 //	echo $ip_/add;

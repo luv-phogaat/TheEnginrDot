@@ -2,7 +2,10 @@
 
 //fetch.php
 
-$connect = new PDO("mysql:host=localhost;dbname=theenginrdot", "root", "");
+//$connect = new PDO("mysql:host=localhost;dbname=theenginrdot", "root", "");
+
+$connect = new PDO("mysql:host=localhost;dbname=theengin_theenginrdot", "theengin_theengi", "theenginrdot123");
+
 
 $query = "SELECT * FROM products WHERE cat_id= 1 AND product_price BETWEEN '".$_GET["minimum_range"]."' AND '".$_GET["maximum_range"]."' ORDER BY product_price ASC";
 
@@ -39,7 +42,7 @@ if($total_row > 0)
 					<div class="item-info-product ">
 						<h4><a href="single">'.$row['product_title'].'</a></h4>
 						<div class="info-product-price">
-							<span class="item_price">'.$row['product_price'].'</span>
+							<span class="item_price">&#8377; '.$row['product_price'].'</span>
 							
 						</div>
 						<a href="mens?add_cart='.$row['product_id'].'" class="item_add single-item hvr-outline-out button2">Add to cart</a>									

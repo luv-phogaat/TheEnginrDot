@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Womens | The Enginr Dot</title>
+<title>Mens | The Enginr Dot</title>
 <!-- for-mobile-apps -->
 <link rel="shortcut icon" type="image/x-icon" href="images/logotab.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,7 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- banner -->
 <div class="page-head animated wow zoomIn" data-wow-delay=".5s">
 	<div class="container">
-		<h3>Women's Wear</h3>
+		<h3>Men's Wear</h3>
 	</div>
 </div>
 <!-- //banner -->
@@ -76,13 +76,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             function load_product(minimum_range, maximum_range){
 //                        alert(minimum_range);
                              $.ajax({
-                                    url:"fetch1.php",
+                                    url:"fetch.php",
                                     method:"GET",
                                     data:{minimum_range:minimum_range, maximum_range:maximum_range},
                                     success:function(data)
                                     {
                                         $('#single-pro').fadeIn('slow').html(data);
-                                        console.log(data);
                                     }
 		                      });   
                             }
@@ -98,12 +97,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="css-treeview">
 				<h4>Categories</h4>
-	                	<ul class="tree-list-pad">
-					<li><input type="checkbox" checked="checked" id="item-0" /><label for="item-0"><span></span>Women's Wear</label>
+				<ul class="tree-list-pad">
+					<li><input type="checkbox" checked="checked" id="item-0" /><label for="item-0"><span></span>Men's Wear</label>
 								<ul>
-									<li><a href="womens">Top Wear</a></li>
-									<li><a href="womens">Bottom Wear</a></li>
-                                    <li><a href="womens">Foot Wear</a></li>
+									<li><a href="mens">Top Wear</a></li>
+									<li><a href="mens">Bottom Wear</a></li>
+                                    <li><a href="mens">Foot Wear</a></li>
                                     <li>&nbsp;</li>
                                     <li>&nbsp;</li>
                                     <li>&nbsp;</li>
@@ -133,7 +132,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</li>
 				</ul>
 
-        		</div>
+			</div>
 
 			<div class="clearfix"></div>
 		</div>
@@ -253,7 +252,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<img class="img-responsive" src="images/men3.jpg" alt=" " />
 				</div>
 				<div class="col-sm-8 men-wear-right animated wow ZoomIn" data-wow-delay=".5s">
-					<h4>Exclusive Women's Collections</h4>
+					<h4>Exclusive Men's Collections</h4>
 					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
 					accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
 					ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -527,7 +526,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 -->
         <?php
             
-            getProwomens();
+            getpromens();
             
         ?>
 			<div class="clearfix"></div>

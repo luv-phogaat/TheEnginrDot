@@ -69,17 +69,17 @@ Smartphone Compatible Website, Men's & Women's Wear Website" />
 			<div class="slide-visual animated wow zoomIn" data-wow-delay=".5s">
 				<!-- Slide Image Area (1000 x 424) -->
 				<ul class="slide-group">
-					<li><img class="img-responsive" src="images/ba1.jpg" alt="Dummy Image" /></li>
-					<li><img class="img-responsive" src="images/ba2.jpg" alt="Dummy Image" /></li>
-					<li><img class="img-responsive" src="images/ba3.jpg" alt="Dummy Image" /></li>
+					<li><img class="img-responsive" src="images/b1.jpeg" alt="Dummy Image" /></li>
+					<li><img class="img-responsive" src="images/b2.jpeg" alt="Dummy Image" /></li>
+					<li><img class="img-responsive" src="images/b3.jpeg" alt="Dummy Image" /></li>
 				</ul>
 
 				<!-- Slide Description Image Area (316 x 328) -->
 				<div class="script-wrap">
 					<ul class="script-group">
-						<li><div class="inner-script"><img class="img-responsive" src="images/baa1.jpg" alt="Dummy Image" /></div></li>
-						<li><div class="inner-script"><img class="img-responsive" src="images/baa2.jpg" alt="Dummy Image" /></div></li>
-						<li><div class="inner-script"><img class="img-responsive" src="images/baa3.jpg" alt="Dummy Image" /></div></li>
+						<li><div class="inner-script"><img class="img-responsive" src="images/b11.jpeg" alt="Dummy Image" /></div></li>
+						<li><div class="inner-script"><img class="img-responsive" src="images/b12.jpeg" alt="Dummy Image" /></div></li>
+						<li><div class="inner-script"><img class="img-responsive" src="images/b13.jpeg" alt="Dummy Image" /></div></li>
 					</ul>
 					<div class="slide-controller">
 						<a href="#" class="btn-prev"><img src="images/btn_prev.png" alt="Prev Slide" /></a>
@@ -113,7 +113,7 @@ Smartphone Compatible Website, Men's & Women's Wear Website" />
 <div class="new_arrivals">
 	<div class="container">
 		<h3 class="animated wow zoomIn" data-wow-delay=".5s"><span>new </span>arrivals</h3>
-		<p class="animated wow slideInUp" data-wow-delay=".5s">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+<!--		<p class="animated wow slideInUp" data-wow-delay=".5s">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
 		<div class="new_grids">
 			<div class="col-md-4 new-gd-left animated wow slideInLeft" data-wow-delay=".5s">
 				<img src="images/wed1.jpg" alt=" " />
@@ -154,7 +154,7 @@ Smartphone Compatible Website, Men's & Women's Wear Website" />
 				</div>
 			</div>
 			<div class="clearfix"></div>
-		</div>
+		</div>-->
 	</div>
 </div>
 <!-- //content -->
@@ -165,35 +165,35 @@ Smartphone Compatible Website, Men's & Women's Wear Website" />
 	<div class="col-md-7 content-lgrid">
 		<div class="col-sm-6 content-img-left text-center animated wow slideInLeft" data-wow-delay=".5s">
 			<div class="content-grid-effect slow-zoom vertical">
-				<div class="img-box"><img src="images/p1.jpg" alt="image" class="img-responsive zoom-img"></div>
+				<div class="img-box"><img src="images/offer1.jpeg" alt="image" class="img-responsive zoom-img"></div>
 					<div class="info-box">
 						<div class="info-content simpleCart_shelfItem">
-									<h4>Mobiles</h4>
+									<h4>T-Shirts</h4>
 									<span class="separator"></span>
-									<p><span class="item_price">$500</span></p>
+									<p><span class="item_price">₹ 399</span></p>
 									<span class="separator"></span>
-									<a class="item_add hvr-outline-out button2" href="#">add to cart </a>
+									<!--<a class="item_add hvr-outline-out button2" href="#">add to cart </a>-->
 						</div>
 					</div>
 			</div>
 		</div>
 		<div class="col-sm-6 content-img-right animated wow zoomIn" data-wow-delay=".5s">
-			<h3>Special Offers and 50%<span>Discount On</span> Mobiles</h3>
+			<h3>Special Offers and 50%<span>Discount On</span> T-Shirts</h3>
 		</div>
 		
 		<div class="col-sm-6 content-img-right animated wow slideInLeft" data-wow-delay=".5s">
-			<h3>Buy 1 get 1  free on <span> Branded</span> Watches</h3>
+			<h3>Buy 1 get 1  free on <span> Branded</span> T-Shirts</h3>
 		</div>
 		<div class="col-sm-6 content-img-left text-center animated wow zoomIn" data-wow-delay=".5s">
 			<div class="content-grid-effect slow-zoom vertical">
-				<div class="img-box"><img src="images/p2.jpg" alt="image" class="img-responsive zoom-img"></div>
+				<div class="img-box"><img src="images/offer2.jpeg" alt="image" class="img-responsive zoom-img"></div>
 					<div class="info-box">
 						<div class="info-content simpleCart_shelfItem">
-							<h4>Watches</h4>
+							<h4>T-Shirts</h4>
 							<span class="separator"></span>
-							<p><span class="item_price">$250</span></p>
+							<p><span class="item_price">₹ 399</span></p>
 							<span class="separator"></span>
-							<a class="item_add hvr-outline-out button2" href="#">add to cart </a>
+							<!--<a class="item_add hvr-outline-out button2" href="#">add to cart </a>-->
 						</div>
 					</div>
 			</div>
@@ -202,14 +202,14 @@ Smartphone Compatible Website, Men's & Women's Wear Website" />
 	</div>
 	<div class="col-md-5 content-rgrid text-center animated wow slideInRight" data-wow-delay=".5s">
 		<div class="content-grid-effect slow-zoom vertical">
-				<div class="img-box"><img src="images/p4.jpg" alt="image" class="img-responsive zoom-img"></div>
+				<div class="img-box"><img src="images/offer3.jpeg" alt="image" class="img-responsive zoom-img"></div>
 					<div class="info-box">
 						<div class="info-content simpleCart_shelfItem">
-									<h4>Shoes</h4>
+									<h4>T-Shirts</h4>
 									<span class="separator"></span>
-									<p><span class="item_price">$150</span></p>
+									<p><span class="item_price">₹ 399</span></p>
 									<span class="separator"></span>
-									<a class="item_add hvr-outline-out button2" href="#">add to cart </a>
+									<!--<a class="item_add hvr-outline-out button2" href="#">add to cart </a>-->
 						</div>
 					</div>
 			</div>
@@ -299,20 +299,20 @@ Smartphone Compatible Website, Men's & Women's Wear Website" />
 			<div class="col-md-3 coupons-gd animated wow zoomIn" data-wow-delay=".5s">
 				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 				<h4>LOGIN TO YOUR ACCOUNT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd animated wow zoomIn" data-wow-delay=".5s">
 				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 				<h4>SELECT YOUR ITEM</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd animated wow zoomIn" data-wow-delay=".5s">
 				<span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
 				<h4>MAKE PAYMENT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="clearfix"> </div>
 		</div>

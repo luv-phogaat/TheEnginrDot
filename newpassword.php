@@ -4,7 +4,6 @@
 <title>The Enginr Dot</title>
 <!-- for-mobile-apps -->
 <link rel="shortcut icon" type="image/x-icon" href="images/logotab.ico" />
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Smart Shop Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -61,9 +60,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <input type="hidden" name="token" value="<?php echo $_GET['id'] ?>">
                                         <input type="hidden" name="email" value="<?php echo $_GET['cid'] ?>">
                                      <label for="new_password">New Password:</label>
-                                        <input type="password" id="new_password" placeholder="Enter Password" autocomplete="off" style="text-align: center;width: 750px;height: 55px;font-size: 24px;" name="newpass"/><br><br>
+                                        <input type="password" id="new_password" placeholder="Enter Password" autocomplete="off" style="text-align: center;width: 750px;height: 55px;font-size: 24px;color:#999;" name="newpass"/><br><br>
                                           <label for="confirm_new_password">Confirm New Password:</label>
-                                        <input type="password" id="confirm_new_password" placeholder="Enter Password" autocomplete="off" style="text-align: center;width: 750px;height: 55px;font-size: 24px;" name="cnewpass"/><br><br>
+                                        <input type="password" id="confirm_new_password" placeholder="Enter Password" autocomplete="off" style="text-align: center;width: 750px;height: 55px;font-size: 24px;color:#999;" name="cnewpass"/><br><br>
                                         <input type="submit" value="SUBMIT" class="submit_forgot" autocomplete="off" style="font-size: 24px;width: 750px;height: 47px;"/>
                                         </form>
                                     </div>

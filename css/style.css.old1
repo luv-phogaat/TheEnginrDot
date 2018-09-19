@@ -2728,7 +2728,7 @@ table.timetable_sub {
 	border:1px solid #CDCDCD;
 }
 td.invert-image a img {
-/*    width:30%;*/
+    width:30%;
     margin: 0 auto;
 }
 .rem{

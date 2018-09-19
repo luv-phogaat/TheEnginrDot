@@ -307,24 +307,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div  id="top" class="callbacks_container">
 					<ul class="rslides" id="slider3">
 						<li>
-							<img class="img-responsive" src="images/men1.jpg" alt=" " width="100%"/>
+							<img class="img-responsive" src="images/men11.jpeg" alt=" " width="100%"/>
 						</li>
 						<li>
-							<img class="img-responsive" src="images/men2.jpg" alt=" " width="100%"/>
+							<img class="img-responsive" src="images/men12.jpeg" alt=" " width="100%"/>
 						</li>
 						<li>
-							<img class="img-responsive" src="images/men1.jpg" alt=" " width="100%"/>
+							<img class="img-responsive" src="images/men13.jpeg" alt=" " width="100%"/>
 						</li>
 						<li>
-							<img class="img-responsive" src="images/men2.jpg" alt=" " width="100%"/>
+							<img class="img-responsive" src="images/men14.jpeg" alt=" " width="100%"/>
 						</li>
 					</ul>
 				</div>
 				<div class="clearfix"></div>
 			</div>
-			<div class="men-wear-bottom">
+			<!--<div class="men-wear-bottom">
 				<div class="col-sm-4 men-wear-left animated wow zoomIn" data-wow-delay=".5s">
-					<img class="img-responsive" src="images/men3.jpg" alt=" " />
+					<img class="img-responsive" src="images/men15.jpg" alt=" " />
 				</div>
 				<div class="col-sm-8 men-wear-right animated wow ZoomIn" data-wow-delay=".5s">
 					<h4>Exclusive Men's Collections</h4>
@@ -335,7 +335,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					odit aut fugit. </p>
 				</div>
 				<div class="clearfix"></div>
-			</div>
+			</div>-->
 <!--
 				<div class="col-md-4 product-men no-pad-men" style="border:double;">
 					<div class="men-pro-item simpleCart_shelfItem animated wow zoomIn" data-wow-delay=".5s">
@@ -632,20 +632,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 				<h4>LOGIN TO YOUR ACCOUNT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 				<h4>SELECT YOUR ITEM</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
 				<h4>MAKE PAYMENT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="clearfix"> </div>
 		</div>

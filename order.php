@@ -132,7 +132,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                     while($p_price=mysqli_fetch_array($run_pro_price)){
 
-                                        $product_price = array($p_price['product_price']);
+                                        $product_price = array($p_price['product_price'] * $qty);
 
                                         $product_title = $p_price['product_title'];
 
@@ -146,6 +146,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
                                         $total += $values;
+//                                        $total += $values * qty ;
 echo '<tr>';                                        
 echo '<td>'.$product_title.'</td>';
 echo '<td>'.$qty.'</td>';
@@ -222,20 +223,20 @@ echo '</tr>';
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 				<h4>LOGIN TO YOUR ACCOUNT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 				<h4>SELECT YOUR ITEM</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="col-md-3 coupons-gd">
 				<span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>
 				<h4>MAKE PAYMENT</h4>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
-			sit amet, consectetur.</p>
+				<!--<p>Neque porro quisquam est, qui dolorem ipsum quia dolor
+			sit amet, consectetur.</p>-->
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -346,31 +347,35 @@ $bodyContent .= "<table border='2' cellpadding='5'><tr><td>Product Name</td><td>
                                     $pro_id = $record['p_id'];
 
                                     $qty = $record['qty'];
-
+                                    echo "Qty -> ".$qty."<br>";
                                     $pro_price = "select * from products where product_id='$pro_id'";
 
                                     $run_pro_price = mysqli_query($con, $pro_price);
 
                                     while($p_price=mysqli_fetch_array($run_pro_price)){
-
-                                        $product_price = array($p_price['product_price']);
-
+//                                        echo "Prodt_price ->".$p_price['product_price'];
+                                    $product_pp = $p_price['product_price'];
+                                    $product_price0 = $product_pp * $qty; 
+//                                        echo $product_price0;
+                        $product_price = array($product_price0);
+//                                        echo $product_price[0];
+//                                        print_r($product_price);
                                         $product_title = $p_price['product_title'];
 
                                         $only_price	= $p_price['product_price'];
 //$product sum = 
 
                                         $values = array_sum($product_price);	
-$sqlqueryo  = mysqli_query($con,"insert into customer_orders(customer_id,due_amount,invoice_no, qty, product_id) values('".$resquery002['customer_id']."','".$only_price."','".$_POST['orderid']."','".$qty."','".$pro_id."')");
-
-$total += $values * qty ;		
-$bodyContent .= "<tr><td>".$product_title."</td><td>".$qty."</td><td>".$only_price."</td><td>".$only_price * $qty."</td></tr>";
+//                                        echo "Price -> ".$values;
+                                        $sqlqueryo  = mysqli_query($con,"insert into customer_orders(customer_id,due_amount,invoice_no, qty, product_id) values('".$resquery002['customer_id']."','".$only_price."','".$_POST['orderid']."','".$qty."','".$pro_id."')");
+                                        
+                                        $total += $values;		
+                                        $bodyContent .= "<tr><td>".$product_title."</td><td>".$qty."</td><td>".$only_price."</td><td>".$only_price * $qty."</td></tr>";
 
                                 }
                             }
-                        
 //echo $_POST['orderid'];
-
+//echo $total;
 $sqlqueryp  = mysqli_query($con,"insert into payments(invoice_no, amount) values('".$_POST['orderid']."','".$total."')");
 //if($sqlqueryp)echo "done";
 
@@ -383,10 +388,9 @@ $bodyContent .= "<p><b>Name : </b>".$_POST['name']."</p>
                                       <p><b>Email : </b>".$_POST['email']."</p></ul>";
 $mail->Subject = 'TheEnginrDot - Order';
 $mail->Body    = $bodyContent;
-
+// echo $bodyContent;
 
 $removecartquery = mysqli_query($con,"delete from cart where emailid = '".$ip_add."'");
-
     if($sqlqueryo && $sqlqueryp && $removecartquery && $mail->send()){
         ?>  
         <script>alert('Check your mail for further details');window.location='index'</script>

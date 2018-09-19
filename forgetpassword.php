@@ -59,8 +59,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                           Reset Password: 
                                         </h4><br><br>
                                         <!--<label for="email">Enter Email</label>-->
-                                        <form action="forgetpassword1" method="post">
-                                        <input type="email" id="email" placeholder="Enter Your Email" autocomplete="off" style="text-align: center;width: 750px;height: 55px;font-size: 24px;" name="email"/><br><br>
+                                        <form action="forgetpassword1" method="POST">
+                                        <input type="email" id="email" placeholder="Enter Your Email" autocomplete="off" style="text-align: center;width: 750px;height: 55px;font-size: 24px;color:#999;" name="email"/><br><br>
                                         <input type="submit" value="SUBMIT" class="submit_forgot" autocomplete="off" style="font-size: 24px;width: 750px;height: 47px;"/>
                                         </form>
                                     </div>
